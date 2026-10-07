@@ -84,3 +84,6 @@ with DAG(dag_id='load_api_aws_kinesis', default_args={'owner': 'Sovan'}, tags=["
     )
 
     get_api_userId_params >> extract_userposts >>  write_userposts_to_stream
+
+
+## test push
